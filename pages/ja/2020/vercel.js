@@ -13,7 +13,7 @@ export default withViews(({ views }) => (
       <meta property="og:site_name" content="Guillermo Rauchのブログ" />
       <meta
         property="og:description"
-        content="Our journey continues with a new name: Vercel"
+        content="「Vercel」という名前と共に、私達の物語は続きます"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@rauchg" />
