@@ -55,7 +55,7 @@ export default withViews(({ views }) => (
       <a href="https://vercel.com" target="_blank">
         <b>Vercel</b>
       </a>
-      に改め、また2100万ドルの資金調達を実施したことを発表しました。資金調達においては、錚々たる顔ぶれであるVC(
+      に改め、2100万ドルの資金調達を実施したことを公表しました。資金調達においては、錚々たる顔ぶれであるVC(
       <a href="https://www.accel.com" target="_blank">
         Accel
       </a>
