@@ -109,16 +109,15 @@ export default withViews(({ views }) => (
     </P>
 
     <P>
+      Accel(訳註: 今回Vercelに投資したVC)の
       <a href="https://twitter.com/daniel_levine" target="_blank">
         Daniel Levine
-      </a>{' '}
-      at Accel predicts that a “designer and developer-first approach to the
-      frontend experience is what will separate the winners from the losers in
-      businesses across all major market categories” and says Vercel has the
-      opportunity to be{' '}
+      </a>
+      は、「フロントエンドを作る際に、デザイナーやフロントエンドエンジニアが主導権を握れるかどうか。これこそが、将来ほとんどの市場において、ビジネスの勝敗を決める鍵となるだろう」と予想しています。また彼は、「Vercelは、
       <em>
-        <b>“like AWS for frontend developers.”</b>
-      </em>{' '}
+        <b>フロントエンド版のAWS</b>
+      </em>
+      に化ける可能性がある」とも言ってくれました。
     </P>
 
     <H2 id="megatrends">Three Megatrends for Frontend Developer Teams</H2>
