@@ -90,27 +90,22 @@ export default withViews(({ views }) => (
       、その他多くの方々)のご支援を頂いています。
     </P>
     <P>
-      せっかくの機会なので、今回はVercelのビジョンについて語らせてください。Jamstackのウェブサイトを作り、試し、公開するための最高峰の仕組みを追求し、ゆくゆくは
+      せっかくの機会なので、今回はVercelのビジョンについて語らせてください。Jamstackのウェブサイトを作り、試し、公開するための最高峰の仕組みを私達は追求し、ゆくゆくは
       <b>フロントエンド開発の体験</b>
       を再定義する、ということについてお伝えできればと思います。
     </P>
     <P>
-      Let’s start with the context that the backend has been commoditized by
-      cloud infrastructure, Kubernetes and off-the-shelf APIs. Today the most
-      interesting new opportunities for modernization have shifted to the
-      frontend. That’s where the value is for most enterprises - creating new
-      products and content that attract users and drive revenue. The Jamstack
-      architecture (Javascript / APIs / Markup) has enabled the frontend to be
-      split from the backend so that site development can happen ever faster and
-      independent of the backend. Jamstack is an architecture shift that’s been
-      proven out by Google, Facebook, and Microsoft (
+      まずは最近の大きな流れとして、クラウドインフラ、Kubernetes、様々なAPIを提供するサービス等の台頭により、バックエンド開発にコモディティ化の波が押し寄せました。その結果、やりがいがある革新の機会がどれだけ残っているか？という点において、フロントエンド開発の存在感が高まっています。そしてフロントエンド開発こそ、多くの企業において価値の源泉であると言えるでしょう。集客や収益化に繋がるコンテンツやプロダクト作りの根幹をなすのがフロントエンド開発だからです。
+    </P>
+    <P>
+      また近年、Jamstack(JavaScript・API・マークアップ)という設計手法が登場し、フロントエンドとバックエンドを切り分けることが容易になりました。これにより、バックエンドが足枷になることなく、フロントエンドを今まで以上に効率よく作ることができます。Jamstackへの移行に関してはグーグル、フェイスブック、マイクロソフトも太鼓判を押しており(
       <a
         target="_blank"
         href="https://www.youtube.com/watch?v=EpYYe6aQjJM&feature=youtu.be"
       >
-        see how Microsoft Docs is 100% Jamstack
+        例: Microsoft DocsはJamstackのみで作成
       </a>
-      ) - and is quickly becoming the new modernization push for everyone else.
+      )、業界全体において日進月歩で導入が進んでいます。
     </P>
 
     <P>
