@@ -103,7 +103,7 @@ export default withViews(({ views }) => (
         target="_blank"
         href="https://www.youtube.com/watch?v=EpYYe6aQjJM&feature=youtu.be"
       >
-        例: Microsoft DocsはJamstackのみで作成
+        例: マイクロソフトのドキュメンテーションサイトは全てJamstackで構築
       </a>
       )、業界全体において日進月歩で導入が進んでいます。
     </P>
