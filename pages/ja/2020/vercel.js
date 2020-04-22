@@ -1,5 +1,6 @@
 import Post from '../../../components/layouts/post'
 import P from '../../../components/post/paragraph'
+import HR from '../../../components/post/hr'
 import Header from '../../../components/post/header'
 import { H2, H3 } from '../../../components/post/heading'
 import withViews from '../../../lib/with-views'
@@ -22,19 +23,40 @@ export default withViews(({ views }) => (
     </Head>
 
     <P>
-      (<a href="https://twitter.com/chibicode">@chibicode</a>
-      による翻訳です。原文は
+      訳註:{' '}
+      <a href="https://nextjs.org/" target="_blank">
+        Next.js
+      </a>
+      の生みの親の一人で、
+      <a href="https://vercel.com/" target="_blank">
+        Vercel
+      </a>
+      社のCEOを務める
+      <a href="https://twitter.com/rauchg" target="_blank">
+        @rauchg
+      </a>
+      による記事の翻訳です。原文は
       <Link href="/2020/vercel">
         <a>こちら</a>
       </Link>
-      )
+      。訳者はVercelのエンジニアであり、ハンス・ロスリングほか著『FACTFULNESS』の共訳者でもある上杉周作(
+      <a href="https://twitter.com/chibicode" target="_blank">
+        @chibicode
+      </a>
+      )。ちなみに、Vercel社はこのたび社名をZEITから改名しました。
+      <a href="https://vercel.com/blog/zeit-is-now-vercel" target="_blank">
+        公式発表はこちら
+      </a>
+      。
     </P>
+    <HR />
     <P>
-      Today we announced that we’ve re-branded as{' '}
+      本日、私達は社名を
       <a href="https://vercel.com" target="_blank">
         <b>Vercel</b>
       </a>
-      , alongside the news of $21M in funding from some of the best VCs (
+      に改めたことや、2100万ドルの資金調達を実施したことについて発表しました。
+      from some of the best VCs (
       <a href="https://www.accel.com" target="_blank">
         Accel
       </a>
