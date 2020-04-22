@@ -55,7 +55,7 @@ export default withViews(({ views }) => (
       <a href="https://vercel.com" target="_blank">
         <b>Vercel</b>
       </a>
-      に改めたことや、2100万ドルの資金調達を実施したことを発表しました。資金調達においては、業界でも錚々たる顔ぶれであるVC({' '}
+      に改め、また2100万ドルの資金調達を実施したことを発表しました。資金調達においては、錚々たる顔ぶれであるVC({' '}
       <a href="https://www.accel.com" target="_blank">
         Accel
       </a>
@@ -91,9 +91,9 @@ export default withViews(({ views }) => (
     </P>
 
     <P>
-      So I wanted to share Vercel’s vision for how we’re redefining the{' '}
-      <b>frontend developer experience</b>, on our mission to provide the
-      ultimate workflow for developing, previewing, and shipping Jamstack sites.
+      今回は折角の機会なので、Vercelのビジョンについて語らせてください。Jamstackのウェブサイトを作り、試し、公開するための最高の仕組みを提供し、ゆくゆくは
+      <b>フロントエンド開発の体験</b>
+      を再定義する、ということについてお伝えできればと思います。
     </P>
     <P>
       Let’s start with the context that the backend has been commoditized by
