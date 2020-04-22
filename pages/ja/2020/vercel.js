@@ -4,6 +4,7 @@ import Header from '../../../components/post/header'
 import { H2, H3 } from '../../../components/post/heading'
 import withViews from '../../../lib/with-views'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default withViews(({ views }) => (
   <Post>
@@ -13,13 +14,21 @@ export default withViews(({ views }) => (
       <meta property="og:site_name" content="Guillermo Rauchのブログ" />
       <meta
         property="og:description"
-        content="「Vercel」という名前と共に、私達の物語は続きます"
+        content="「Vercel」という名と共に、私達の物語は続きます"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@rauchg" />
       <meta property="og:image" content="https://rauchg.com/og/vercel.png" />
     </Head>
 
+    <P>
+      (<a href="https://twitter.com/chibicode">@chibicode</a>
+      による翻訳です。原文は
+      <Link href="/2020/vercel">
+        <a>こちら</a>
+      </Link>
+      )
+    </P>
     <P>
       Today we announced that we’ve re-branded as{' '}
       <a href="https://vercel.com" target="_blank">
