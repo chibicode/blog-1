@@ -55,40 +55,39 @@ export default withViews(({ views }) => (
       <a href="https://vercel.com" target="_blank">
         <b>Vercel</b>
       </a>
-      に改めたことや、2100万ドルの資金調達を実施したことについて発表しました。
-      from some of the best VCs (
+      に改めたことや、2100万ドルの資金調達を実施したことを発表しました。資金調達においては、業界でも錚々たる顔ぶれであるVC({' '}
       <a href="https://www.accel.com" target="_blank">
         Accel
       </a>
-      ,{' '}
+      、
       <a href="https://crv.com" target="_blank">
         CRV
       </a>
-      ) and individual investors we could have possibly imagined (
+      )、そして個人投資家(
       <a href="https://twitter.com/jordwalke" target="_blank">
         Jordan Walke
       </a>
-      ,{' '}
+      、
       <a href="https://twitter.com/natfriedman" target="_blank">
         Nat Friedman
       </a>
-      ,{' '}
+      、
       <a href="https://twitter.com/floydophone" target="_blank">
         Pete Hunt
       </a>
-      ,{' '}
+      、
       <a href="https://twitter.com/jessfraz" target="_blank">
         Jessie Frazelle
       </a>
-      ,{' '}
+      、
       <a href="https://twitter.com/soleio" target="_blank">
         Soleio
       </a>
-      ,{' '}
+      、
       <a href="https://twitter.com/naval" target="_blank">
         Naval Ravikant
       </a>
-      , and too many others to list).
+      、その他多くの方々)のご支援を頂いています。
     </P>
 
     <P>
