@@ -117,10 +117,10 @@ export default withViews(({ views }) => (
       <em>
         <b>フロントエンド版のAWS</b>
       </em>
-      に化ける可能性がある」とも話していました。
+      になれるかもしれない」とも話していました。
     </P>
 
-    <H2 id="megatrends">Three Megatrends for Frontend Developer Teams</H2>
+    <H2 id="megatrends">フロントエンド開発チームにおける3つのメガトレンド</H2>
 
     <P>
       So what is the best developer experience, given the rise of Jamstack
