@@ -178,7 +178,7 @@ export default withViews(({ views }) => (
       <a target="_blank" href="https://www.webcomponents.org/">
         コンポーネント化のウェブ標準
       </a>
-      の実現に向けて貢献しています。Vercelは、こういったフレームワーク全てを歓迎するプラットフォームでありたいのです。
+      の実現に貢献しています。Vercelは、こういったフレームワーク全てを歓迎するプラットフォームでありたいのです。
     </P>
     <H3 id="preview">
       2. Deploy Preview &gt; Code Review. URLs as the Primitive for
