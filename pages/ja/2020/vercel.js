@@ -124,13 +124,11 @@ export default withViews(({ views }) => (
 
     <P>
       Jamstackの台頭もそうですが、フロントエンド開発は全般的に近代化が進んでいます。
-      開発を高速化するツールが生まれてJavaScript開発者が恩恵を受けたり、サービスが新技術を用いて高速化されることでユーザーが恩恵を受けています。そんな中で、さらに良質なフロントエンドの開発者体験を追求するためには、これから述べる3大トレンドに留意する必要があるでしょう。
+      開発を高速化するツールによってJavaScript開発者が恩恵を受けたり、サービス自体が高速化されることでユーザーが恩恵を受けています。そんな中で、さらに良質なフロントエンドの開発者体験を追求するためには、これから述べる3大トレンドに留意する必要があるでしょう。
       もちろん、Vercelが提供するフロントエンド開発者向けのクラウドプラットフォームは、これらのトレンドを念頭に置いて作られています。
     </P>
 
-    <H3 id="develop-with-components">
-      1. Components Are the Right Primitive for the Frontend
-    </H3>
+    <H3 id="develop-with-components">1. コンポーネント化が最適解</H3>
     <P>
       As the demand for richer frontend experiences has grown, the pressure is
       for teams to deliver component and design systems - coherent frontend
