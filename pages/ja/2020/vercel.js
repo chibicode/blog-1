@@ -181,8 +181,7 @@ export default withViews(({ views }) => (
       の実現に貢献しています。Vercelは、こういったフレームワーク全てを歓迎するプラットフォームでありたいのです。
     </P>
     <H3 id="preview">
-      2. Deploy Preview &gt; Code Review. URLs as the Primitive for
-      Collaboration
+      2. コードレビューはデプロイプレビューに如かず。URLは共同作業のためにある
     </H3>
     <P>
       The code push and review workflow is way too complicated. Too many cycles
@@ -242,7 +241,7 @@ export default withViews(({ views }) => (
       </a>
       .
     </P>
-    <H3 id="ship-with-speed">3. It’s All About Speed</H3>
+    <H3 id="ship-with-speed">3. スピードが命</H3>
     <P>
       If you’re creating a modern frontend nothing matters more than great site
       performance for the user.{' '}
