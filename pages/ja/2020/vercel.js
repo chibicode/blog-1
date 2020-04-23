@@ -95,7 +95,7 @@ export default withViews(({ views }) => (
       を再定義する、ということについてお伝えできればと思います。
     </P>
     <P>
-      まずは最近の大きな流れとして、クラウドインフラ、Kubernetes、様々なAPIを提供するサービス等の台頭により、バックエンド開発にコモディティ化の波が押し寄せました。その結果、やりがいがある革新の機会がどれだけ残っているか？という点において、フロントエンド開発の存在感が高まっています。そしてフロントエンド開発こそ、多くの企業において価値の源泉であると言えるでしょう。集客や収益化に繋がるコンテンツやプロダクトに、フロントエンドは直結しているからです。
+      まずは最近の大きな流れとして、クラウドインフラ、Kubernetes、様々なAPIを提供するサービス等の台頭により、バックエンド開発にコモディティ化の波が押し寄せました。その結果、やりがいがある革新の機会がまだどれだけ残っているか？という点において、フロントエンド開発がより魅力的になっています。そしてフロントエンド開発こそ、多くの企業において価値の源泉であると言えるでしょう。集客や収益化に繋がるコンテンツやプロダクトに、フロントエンドは直結しているからです。
     </P>
     <P>
       また近年、Jamstack(JavaScript・API・マークアップ)という設計手法が登場し、フロントエンドとバックエンドを切り分けることが容易になりました。これにより、バックエンドが足枷になることなく、フロントエンドを今まで以上に効率よく作ることができます。Jamstackへの移行に関してはグーグル、フェイスブック、マイクロソフトも太鼓判を押しており(
@@ -113,7 +113,7 @@ export default withViews(({ views }) => (
       <a href="https://twitter.com/daniel_levine" target="_blank">
         Daniel Levine
       </a>
-      は、「デザイナーやフロントエンドエンジニアが、主導権を握ってUI・UXを作り込むことができるか否か。これこそが、将来ほとんどの市場において、ビジネスの勝敗を決める鍵となるだろう」と予想しています。また彼は、「Vercelは、
+      は、「デザイナーやフロントエンドエンジニアが、主導権を握ってUIやUXを作り込むことができるか否か。これこそが、将来ほとんどの市場において、ビジネスの勝敗を決める鍵となるだろう」と予想しています。また彼は、「Vercelは、
       <em>
         <b>フロントエンド版のAWS</b>
       </em>
@@ -130,18 +130,11 @@ export default withViews(({ views }) => (
 
     <H3 id="develop-with-components">1. コンポーネント化が最適解</H3>
     <P>
-      As the demand for richer frontend experiences has grown, the pressure is
-      for teams to deliver component and design systems - coherent frontend
-      experiences across every platform. Your button should look the same on
-      web, mobile and desktop, and even your emails.
+      より高度なUIやUXが求められるにつれ、現場ではコンポーネント化やデザインシステムの導入が急務になっています。プラットフォームが違えど、ユーザー体験は統一されているべきです。たとえばボタンの見た目は、Webアプリ、モバイルアプリ、デスクトップアプリ、あるいはEメールの文中においても同じでないといけません。
     </P>
 
     <P>
-      Not too long ago, people weren’t talking about components, they were
-      talking about selector engines and the DOM. Then React (out of Facebook)
-      introduced this primitive of the component. Other frameworks allow you to
-      define components, but the movement that really pioneered this trend was
-      React.
+      少し前の頃まで、コンポーネント化は常識ではありませんでした。話題の中心は、セレクタエンジンやDOMだったのです。そんな中、Facebookが生んだReactと共にコンポーネント化の概念が登場しました。もちろん、他のフレームワークでもコンポーネントを作ることはできましたが、コンポーネント化の先駆けとなったのは紛れもなくReactでした。
     </P>
 
     <P>
