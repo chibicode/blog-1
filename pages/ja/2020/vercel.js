@@ -120,15 +120,12 @@ export default withViews(({ views }) => (
       になれるかもしれない」とも話していました。
     </P>
 
-    <H2 id="megatrends">フロントエンド開発チームにおける3つのメガトレンド</H2>
+    <H2 id="megatrends">フロントエンド開発者体験の向上に関わる3大トレンド</H2>
 
     <P>
-      So what is the best developer experience, given the rise of Jamstack
-      architecture and the general push to modernize the frontend with tools for
-      faster iteration (delighting Javascript developers) and faster sites
-      (delighting users)? These are three frontend developer experience
-      megatrends that Vercel’s cloud platform for frontend teams is built
-      around:
+      Jamstackの台頭もそうですが、フロントエンド開発は全般的に近代化が進んでいます。
+      開発を高速化するツールが生まれてJavaScript開発者が恩恵を受けたり、サービスが新技術を用いて高速化されることでユーザーが恩恵を受けています。そんな中で、さらに良質なフロントエンドの開発者体験を追求するためには、これから述べる3大トレンドに留意する必要があるでしょう。
+      もちろん、Vercelが提供するフロントエンド開発者向けのクラウドプラットフォームは、これらのトレンドを念頭に置いて作られています。
     </P>
 
     <H3 id="develop-with-components">
