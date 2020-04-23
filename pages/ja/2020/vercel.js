@@ -134,24 +134,21 @@ export default withViews(({ views }) => (
     </P>
 
     <P>
-      少し前の頃まで、コンポーネント化は常識ではありませんでした。話題の中心は、セレクタエンジンやDOMだったのです。そんな中、Facebookが生んだReactと共にコンポーネント化の概念が登場しました。もちろん、他のフレームワークでもコンポーネントを作ることはできましたが、コンポーネント化の先駆けとなったのは紛れもなくReactでした。
+      少し前の頃まで、コンポーネント化は常識ではありませんでした。話題の中心は、セレクタエンジンやDOMだったのです。そんな中、Facebookが生んだReactと共にコンポーネント化の概念が登場しました。もちろん、他のフレームワークでもコンポーネントを作ることはできましたが、コンポーネント化の先駆者となったのは紛れもなくReactでした。
     </P>
 
     <P>
-      Years ago,{' '}
+      数年前、
       <a href="https://twitter.com/timneutkens" target="_blank">
         Tim Neutkens
       </a>
-      ,{' '}
+      、
       <a href="https://twitter.com/nkzawa" target="_blank">
         Naoyuki Kanezawa
-      </a>{' '}
-      and I co-created Next.js because of our belief that React was so powerful
-      it could become the full engine for the frontend. We started Next.js to
-      provide some critical new functionality to make React consumable for
-      everyone who wanted to do <b>everything</b> with React, instead of just
-      one specific component. We saw a demand for the component-based React
-      approach to drive the full frontend experience.
+      </a>
+      、そして私は、「Reactはすごい。いずれ、フロントエンドは全てReactで書けるようになるだろう」と感じ、それを実現するために3人でNext.jsを作りました。一つのコンポーネントだけにReactを使うのではなく、
+      <b>何もかも</b>
+      をReactで書きたい人向けに必要な機能を実装したのです。Next.jsは、Reactが切り拓いたコンポーネント化の考え方を、フロントエンド全てに応用したいというニーズに応えました。
     </P>
 
     <P>
