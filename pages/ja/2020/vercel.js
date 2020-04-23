@@ -279,7 +279,7 @@ export default withViews(({ views }) => (
       make your team fast, by bringing the developer experience closer to the
       cloud, and making iteration easy and fast by default.
     </P>
-    <H2>Onward</H2>
+    <H2>これから</H2>
     <P>
       We are still in the early days of a new beginning for the Web. A Web
       that's faster for end-users and easier to build for developers.
