@@ -146,7 +146,7 @@ export default withViews(({ views }) => (
       <a href="https://twitter.com/nkzawa" target="_blank">
         Naoyuki Kanezawa
       </a>
-      、そして私は、「Reactはすごい。いずれ、フロントエンドは全てReactで書けるようになるだろう」と感じ、それを実現するために3人でNext.jsを作りました。一つのコンポーネントだけにReactを使うのではなく、
+      、そして私の3人は、「Reactはすごい。いずれ、フロントエンドは全てReactで書けるようになるだろう」と感じ、それを実現するためにNext.jsを作りました。一つのコンポーネントだけにReactを使うのではなく、
       <b>何もかも</b>
       をReactで書きたい人向けに必要な機能を実装したのです。Next.jsは、Reactが切り拓いたコンポーネント化の考え方を、フロントエンド全てに応用したいというニーズに応えました。
     </P>
