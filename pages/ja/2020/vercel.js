@@ -21,7 +21,6 @@ export default withViews(({ views }) => (
       <meta name="twitter:site" content="@rauchg" />
       <meta property="og:image" content="https://rauchg.com/og/vercel.png" />
     </Head>
-
     <P>
       訳註:{' '}
       <a href="https://nextjs.org/" target="_blank">
@@ -107,7 +106,6 @@ export default withViews(({ views }) => (
       </a>
       )、業界全体において日進月歩で導入が進んでいます。
     </P>
-
     <P>
       Accel(訳註: 今回Vercelに投資したVC)の
       <a href="https://twitter.com/daniel_levine" target="_blank">
@@ -119,24 +117,19 @@ export default withViews(({ views }) => (
       </em>
       になれるかもしれない」とも話していました。
     </P>
-
     <H2 id="megatrends">フロントエンド開発者体験の向上に関わる3大トレンド</H2>
-
     <P>
       Jamstackの台頭もそうですが、フロントエンド開発は全般的に近代化が進んでいます。
       開発を高速化するツールによってJavaScript開発者が恩恵を受けたり、サービス自体が高速化されることでユーザーが恩恵を受けています。そんな中で、さらに良質なフロントエンドの開発者体験を追求するためには、これから述べる3大トレンドに留意する必要があるでしょう。
       もちろん、Vercelが提供するフロントエンド開発者向けのクラウドプラットフォームは、これらのトレンドを念頭に置いて作られています。
     </P>
-
     <H3 id="develop-with-components">1. コンポーネント化が最適解</H3>
     <P>
       より高度なUIやUXが求められるにつれ、現場ではコンポーネント化やデザインシステムの導入が急務になっています。プラットフォームが違えど、ユーザー体験は統一されているべきです。たとえばボタンの見た目は、Webアプリ、モバイルアプリ、デスクトップアプリ、あるいはEメールの文中においても同じでないといけません。
     </P>
-
     <P>
       少し前の頃まで、コンポーネント化は常識ではありませんでした。話題の中心は、セレクタエンジンやDOMだったのです。そんな中、Facebookが生んだReactと共にコンポーネント化の概念が登場しました。もちろん、他のフレームワークでもコンポーネントを作ることはできましたが、コンポーネント化の先駆者となったのは紛れもなくReactでした。
     </P>
-
     <P>
       数年前、
       <a href="https://twitter.com/timneutkens" target="_blank">
@@ -150,33 +143,28 @@ export default withViews(({ views }) => (
       <b>何もかも</b>
       をReactで書きたい人向けに必要な機能を実装したのです。Next.jsは、Reactが切り拓いたコンポーネント化の考え方を、フロントエンド全てに応用したいというニーズに応えました。
     </P>
-
     <P>
-      Indeed, frontend teams today are experiencing an urgency around this
-      component-first paradigm in their development experience. That’s driving
-      them towards React and separating, splitting out, and re-thinking the
-      entire frontend experience. Vercel aims to be their one-stop shop &mdash;
-      not just if they arrived at that point by using{' '}
+      私達の読みは的中しました。現在、フロントエンド開発者の多くはコンポーネント化への移行を急ピッチで進めています。多くはReactを選び、フロントエンドをバックエンドから分離し、設計を抜本的に見直そうとしているのです。Vercelは、そういったフロントエンド開発者に必要なものがすべて揃っているプラットフォームになりたいと考えています。
       <a href="https://nextjs.org" target="_blank">
         Next.js
       </a>
-      , but on{' '}
+      はもちろん、Vercelは
       <a href="https://vuejs.org/" target="_blank">
-        any other
-      </a>{' '}
+        どんな
+      </a>
       <a href="https://nuxtjs.org" target="_blank">
-        component-based
-      </a>{' '}
+        コンポーネント化の
+      </a>
       <a href="https://svelte.dev/" target="_blank">
-        technology
-      </a>{' '}
+        フレームワークにでも
+      </a>
       <a href="https://glimmerjs.com/" target="_blank">
-        they
-      </a>{' '}
+        満遍なく
+      </a>
       <a href="https://angular.io/" target="_blank">
-        may
-      </a>{' '}
-      have adopted as their entry point.
+        対応しています
+      </a>
+      。
     </P>
 
     <P>
@@ -198,12 +186,10 @@ export default withViews(({ views }) => (
       </a>
       . Vercel as a platform wants to support them all!
     </P>
-
     <H3 id="preview">
       2. Deploy Preview &gt; Code Review. URLs as the Primitive for
       Collaboration
     </H3>
-
     <P>
       The code push and review workflow is way too complicated. Too many cycles
       are spent configuring your own CI/CD pipeline, setting up Jenkins, finding
@@ -211,7 +197,6 @@ export default withViews(({ views }) => (
       on. It’s also hard to get your CI/CD and your CDN to talk, and ensuring
       the Rube Goldberg apparatus stays coherent.
     </P>
-
     <P>
       Vercel made a huge breakthrough with the realization that the preview
       deploy URL was a superior abstraction for frontend teams. We created a
@@ -222,12 +207,10 @@ export default withViews(({ views }) => (
       </a>
       .
     </P>
-
     <P>
       Sounds like a pretty basic evolution, but it tears down so much complexity
       and makes frontend teams so much faster!
     </P>
-
     <P>
       The most obvious immediate benefit of the URL for deploy review is making
       it much easier to collaborate across any organization, from marketing and
@@ -235,7 +218,6 @@ export default withViews(({ views }) => (
       chat, instantly seeing what their teammates are developing and what the
       next big push will be.
     </P>
-
     <P>
       When you have a deploy URL, it redefines not just testing, but the entire
       software development experience, from idea to conception to QA. Now you’re
@@ -243,7 +225,6 @@ export default withViews(({ views }) => (
       and tested as a full working version. You eliminate the entire staging
       process.
     </P>
-
     <P>
       Another benefit of Vercel’s deploy preview URL is that you get to test
       your program and site with all the bells and whistles required to run the
@@ -267,9 +248,7 @@ export default withViews(({ views }) => (
       </a>
       .
     </P>
-
     <H3 id="ship-with-speed">3. It’s All About Speed</H3>
-
     <P>
       If you’re creating a modern frontend nothing matters more than great site
       performance for the user.{' '}
@@ -282,7 +261,6 @@ export default withViews(({ views }) => (
       , for example, is measuring your frontend performance across multiple
       dials that are going to greatly influence your SEO ranking.
     </P>
-
     <P>
       Vercel operates a{' '}
       <a target="_blank" href="https://vercel.com/edge-network">
@@ -303,20 +281,16 @@ export default withViews(({ views }) => (
       frontend performance metric you could care about but couldn’t test on your
       local computer.
     </P>
-
     <P>
       Vercel not only focuses on the speed of your sites, it’s also built to
       make your team fast, by bringing the developer experience closer to the
       cloud, and making iteration easy and fast by default.
     </P>
-
     <H2>Onward</H2>
-
     <P>
       We are still in the early days of a new beginning for the Web. A Web
       that's faster for end-users and easier to build for developers.
     </P>
-
     <P>
       I invite you to join us at{' '}
       <a href="https://vercel.com" target="_blank">
