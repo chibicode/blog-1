@@ -145,10 +145,12 @@ export default withViews(({ views }) => (
     </P>
     <P>
       私達の読みは的中しました。現在、フロントエンド開発者の多くはコンポーネント化への移行を急ピッチで進めています。多くはReactを選び、フロントエンドをバックエンドから分離し、設計を抜本的に見直そうとしているのです。Vercelは、そういったフロントエンド開発者に必要なものがすべて揃っているプラットフォームになりたいと考えています。
+    </P>
+    <P>
       <a href="https://nextjs.org" target="_blank">
         Next.js
       </a>
-      はもちろん、Vercelは
+      以外にも、Vercelは
       <a href="https://vuejs.org/" target="_blank">
         どんな
       </a>
@@ -164,27 +166,19 @@ export default withViews(({ views }) => (
       <a href="https://angular.io/" target="_blank">
         対応しています
       </a>
-      。
-    </P>
-
-    <P>
-      It’s worth noting that today there are many other compelling
-      component-based frameworks like{' '}
-      <a href="https://svelte.dev" target="_blank">
-        Svelte
-      </a>{' '}
-      and{' '}
+      。たとえば、
       <a href="https://vuejs.org" target="_blank">
         Vue
-      </a>{' '}
-      that are taking an aggressive approach to problems like reducing the
-      amount of Javascript that gets sent to the client side. These other
-      frameworks are staking their ground in a number of interesting problem
-      domains within the component-based ecosystem and the{' '}
-      <a target="_blank" href="https://www.webcomponents.org/">
-        Web's own standardized efforts
       </a>
-      . Vercel as a platform wants to support them all!
+      や
+      <a href="https://svelte.dev" target="_blank">
+        Svelte
+      </a>
+      はブラウザが読み込むJavaScriptの容量を大幅に減らす試みを行っています。どのフレームワークも、コンポーネント化で直面する様々な問題を解決することで頭角を現したり、
+      <a target="_blank" href="https://www.webcomponents.org/">
+        コンポーネント化のウェブ標準
+      </a>
+      の実現に向けて貢献しています。Vercelは、こういったフレームワーク全てを歓迎するプラットフォームでありたいのです。
     </P>
     <H3 id="preview">
       2. Deploy Preview &gt; Code Review. URLs as the Primitive for
