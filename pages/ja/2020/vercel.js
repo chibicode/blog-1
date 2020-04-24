@@ -237,7 +237,7 @@ export default withViews(({ views }) => (
         グローバルなエッジネットワーク
       </a>
       を運用しており、特に何もせずともデプロイする度にLighthouseで満点を取り続けることができます(訳註:
-      Lighthouseのパフォーマンススコア)。Vercelの利用者が、CDNのサーバレスアーキテクチャの黒魔術を理解する必要はありません。ただVercelにPushするだけで、あなたのフロントエンドアプリは世界中のエッジにデプロイされ、静的コンテンツはキャッシュされ、またトップクラスの圧縮技術で圧縮されます(Vercelでは
+      Lighthouseのパフォーマンススコア)。Vercelの利用者が、CDNやサーバレスアーキテクチャの黒魔術を理解する必要はありません。ただVercelにPushするだけで、あなたのフロントエンドアプリは世界中のエッジにデプロイされ、静的コンテンツはキャッシュされ、またトップクラスの圧縮技術で圧縮されます(Vercelでは
       <a
         href="https://medium.com/oyotech/how-brotli-compression-gave-us-37-latency-improvement-14d41e50fee4"
         target="_blank"
