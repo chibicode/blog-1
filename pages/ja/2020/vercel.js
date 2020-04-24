@@ -259,7 +259,7 @@ export default withViews(({ views }) => (
       </a>
       と共に歩んでみませんか。宜しければ、私達のツイッターも
       <a href="https://twitter.com/vercel">フォロー</a>
-      してみてください。そうすれば、オープンなプラットフォームのお陰で生まれたVercelの、
+      してみてください。そうすれば、オープンなプラットフォームのもとで生まれたVercelの、
       <a href="https://nextjs.org" target="_blank">
         どこまでもオープン
       </a>
