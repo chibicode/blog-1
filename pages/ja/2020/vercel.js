@@ -221,7 +221,7 @@ export default withViews(({ views }) => (
     </P>
     <H3 id="ship-with-speed">3. スピードが命</H3>
     <P>
-      最近のフロントエンド開発において、ユーザーにとって最も大事なことはサイトの速度です。
+      最近のフロントエンド開発において、サイトの速度ほど大事なことはありません。
       たとえば、さまざまな観点からサイトの速度を数値化する
       <a
         href="https://twitter.com/rauchg/status/1252312827131342848"
@@ -236,7 +236,7 @@ export default withViews(({ views }) => (
       <a target="_blank" href="https://vercel.com/edge-network">
         グローバルなエッジネットワーク
       </a>
-      を運用しており、特に何もせずとも毎度のデプロイにおいてLighthouseで満点を取ることができます(訳註:
+      を運用しており、特に何もせずともデプロイする度にLighthouseで満点を取り続けることができます(訳註:
       Lighthouseのパフォーマンススコア)。Vercelの利用者が、CDNやサーバレスアーキテクチャの運用魔術を理解する必要はありません。何も考えなくても、Pushしたフロントエンドは世界中のエッジにデプロイされ、静的コンテンツはキャッシュされ、最良の圧縮技術で圧縮されます(Vercelでは
       <a
         href="https://medium.com/oyotech/how-brotli-compression-gave-us-37-latency-improvement-14d41e50fee4"
