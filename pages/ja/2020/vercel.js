@@ -54,7 +54,7 @@ export default withViews(({ views }) => (
       <a href="https://vercel.com" target="_blank">
         <b>Vercel</b>
       </a>
-      に改め、2100万ドルの資金調達を実施したことを公表しました。資金調達においては、錚々たる顔ぶれであるVC(
+      に改め、2100万ドルの資金調達を実施したことを公表しました。資金調達においては、錚々たる顔ぶれのVC(
       <a href="https://www.accel.com" target="_blank">
         Accel
       </a>
@@ -62,7 +62,7 @@ export default withViews(({ views }) => (
       <a href="https://crv.com" target="_blank">
         CRV
       </a>
-      )、そして個人投資家(
+      )や個人投資家の方々(
       <a href="https://twitter.com/jordwalke" target="_blank">
         Jordan Walke
       </a>
@@ -86,7 +86,7 @@ export default withViews(({ views }) => (
       <a href="https://twitter.com/naval" target="_blank">
         Naval Ravikant
       </a>
-      、その他多くの方々)のご支援を頂いています。
+      、その他多くの皆様)からご支援を頂いています。
     </P>
     <P>
       せっかくの機会なので、今回はVercelのビジョンについて語らせてください。Jamstackのウェブサイトを作り、試し、公開するための最高峰の仕組みを私達は追求し、ゆくゆくは
