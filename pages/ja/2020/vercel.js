@@ -220,41 +220,33 @@ export default withViews(({ views }) => (
     </P>
     <H3 id="ship-with-speed">3. スピードが命</H3>
     <P>
-      If you’re creating a modern frontend nothing matters more than great site
-      performance for the user.{' '}
+      最近のフロントエンド開発において、ユーザーにとって最も大事なことはサイトの速度です。
+      たとえば、さまざまな観点からサイトの速度を数値化する
       <a
         href="https://twitter.com/rauchg/status/1252312827131342848"
         target="_blank"
       >
-        Google’s Lighthouse score
+        GoogleのLighthouseスコア
       </a>
-      , for example, is measuring your frontend performance across multiple
-      dials that are going to greatly influence your SEO ranking.
+      は、検索エンジンのランキングに大きな影響を与えます。
     </P>
     <P>
-      Vercel operates a{' '}
+      Vercelは
       <a target="_blank" href="https://vercel.com/edge-network">
-        global edge network
-      </a>{' '}
-      and gives you a perfect Lighthouse score out of the box every time you
-      deploy. You don’t have to think about what’s going on with our CDN or the
-      serverless magic behind the scenes &mdash; your URL gets deployed to every
-      edge in the world, all your static assets get cached, compressed with the
-      greatest codecs (like{' '}
+        グローバルなエッジネットワーク
+      </a>
+      を運用しており、特に何もせずとも毎度のデプロイにおいてLighthouseで満点を取ることができます(訳註:
+      Lighthouseのパフォーマンススコア)。Vercelの利用者が、CDNやサーバレスアーキテクチャの運用魔術を理解する必要はありません。何も考えなくても、Pushしたフロントエンドは世界中のエッジにデプロイされ、静的コンテンツはキャッシュされ、最良の圧縮技術で圧縮されます(Vercelでは
       <a
         href="https://medium.com/oyotech/how-brotli-compression-gave-us-37-latency-improvement-14d41e50fee4"
         target="_blank"
       >
         Brotli
       </a>
-      , which is built into Vercel out of the box), and optimized for every
-      frontend performance metric you could care about but couldn’t test on your
-      local computer.
+      が使われています)。フロントエンドのパフォーマンスにまつわる全てにおいて最適化が行われ、その効果はプレビューURLで確かめることができるのです。
     </P>
     <P>
-      Vercel not only focuses on the speed of your sites, it’s also built to
-      make your team fast, by bringing the developer experience closer to the
-      cloud, and making iteration easy and fast by default.
+      また、Vercelはサイトの速度だけでなく、開発速度のアップも助けてくれます。開発の軸足をローカルからクラウドに移すことで、より楽に速くプロダクトを改善できるようになるはずです。
     </P>
     <H2>これから</H2>
     <P>
