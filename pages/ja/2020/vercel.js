@@ -199,33 +199,24 @@ export default withViews(({ views }) => (
       たかがURLだと侮るなかれ。プレビューURLには、複雑さからフロントエンド開発者を解き放ち、開発スピードを飛躍的に高める効果があるのです。
     </P>
     <P>
-      最もわかりやすい例を挙げると、プレビューURLがあれば、開発部門だけでなく、マーケティングや営業や法務など他部門との共同作業が捗ります。チャットでプレビューURLを送り合うだけで、いま開発中なのは何か、どの分野に力を入れているのかが明確になります。
+      最もわかりやすい例を挙げると、プレビューURLがあれば、開発部門だけでなく、マーケティングや営業や法務など他部門との共同作業が捗ります。チャットでプレビューURLを送り合うだけで、いま何の開発が進んでいて、会社としてどの分野に力を入れているのかが見渡しやすくなります。
     </P>
     <P>
       デプロイ毎に新しくURLが生成されれば、テストが容易になります。プレビューURLを使えば、ステージング環境を通り越して、本番と変わらない環境でテストを行うことができます。もちろん、アイデア段階のものを試すのにも使えるでしょう。発案から品質保証まで、ソフトウェア開発プロセスの全段階においてプレビューURLは役立つのです。
     </P>
     <P>
-      Another benefit of Vercel’s deploy preview URL is that you get to test
-      your program and site with all the bells and whistles required to run the
-      site. Vercel gives you automatic SSL support &mdash; every one of your
-      deploy URLs is https. We’ve already done the infrastructure heavy lifting
-      to give you a secure environment empowered by{' '}
+      VercelのデプロイプレビューURLのもうひとつのメリットは、すべての機能が本番環境と遜色ないということです。たとえば、Vercelはプレビューを含む全てのデプロイURLを自動で常時SSL化してくれます。インフラ整備に頭を悩ますことなく、
       <a href="https://letsencrypt.org/" target="_blank">
         Let’s Encrypt
       </a>
-      . That means not only is it secure to <em>share</em> these URLs, but you
-      are testing your website in a real production environment, because of
-      these security constraints. When you don’t have this capability, you
-      frequently deploy your website only to find security warnings and a
-      deprecated end user experience. Not only that, but today browsers{' '}
+      を用いたセキュアな環境を利用することができるのです。常時SSL化はプレビューURLを誰かと共有する際に役立つだけでなく、本番と変わらない環境でテストを行うのにも重宝するでしょう。テストの時点でSSL化を徹底していないと、いざ本番にデプロイした際にセキュリティ警告が表示されたり、ユーザー体験が損なわれる可能性が生まれます。ちなみに最近のブラウザでは、
       <a
         href="https://www.digicert.com/blog/https-only-features-in-browsers/"
         target="_blank"
       >
-        are not even enabling modern features&mdash;like Bluetooth support,
-        webcam and microphone&mdash;if the site isn’t SSL
+        SSL化されていないサイトではBluetooth、Webカメラ、マイクといった機能がそもそも利用できなくなります
       </a>
-      .
+      。
     </P>
     <H3 id="ship-with-speed">3. スピードが命</H3>
     <P>
