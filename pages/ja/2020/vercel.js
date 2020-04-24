@@ -125,7 +125,7 @@ export default withViews(({ views }) => (
     </P>
     <H3 id="develop-with-components">1. コンポーネント化が最適解</H3>
     <P>
-      より高度なUIやUXが求められるにつれ、現場ではコンポーネント化やデザインシステムの導入が急務になっています。プラットフォームが違えど、ユーザー体験は統一されているべきです。たとえばボタンの見た目は、Webアプリ、モバイルアプリ、デスクトップアプリ、あるいはEメールの文中においても同じでないといけません。
+      より高度なUIやUXが求められるにつれ、現場ではコンポーネント化やデザインシステムの導入が急務になっています。プラットフォームが違えど、ユーザー体験は統一されているべきです。たとえばボタンの見た目は、ウェブアプリ、モバイルアプリ、デスクトップアプリ、あるいはEメールの文中においても同じでないといけません。
     </P>
     <P>
       少し前の頃まで、コンポーネント化は常識ではありませんでした。話題の中心は、セレクタエンジンやDOMだったのです。そんな中、Facebookが生んだReactと共にコンポーネント化の概念が登場しました。もちろん、他のフレームワークでもコンポーネントを作ることはできましたが、コンポーネント化の先駆者となったのは紛れもなくReactでした。
@@ -214,7 +214,7 @@ export default withViews(({ views }) => (
         href="https://www.digicert.com/blog/https-only-features-in-browsers/"
         target="_blank"
       >
-        SSL化されていないサイトではBluetooth、Webカメラ、マイクといった機能がそもそも利用できなくなります
+        SSL化されていないサイトではBluetooth、ウェブカメラ、マイクといった機能がそもそも利用できなくなります
       </a>
       。
     </P>
@@ -250,21 +250,20 @@ export default withViews(({ views }) => (
     </P>
     <H2>これから</H2>
     <P>
-      We are still in the early days of a new beginning for the Web. A Web
-      that's faster for end-users and easier to build for developers.
+      ユーザーにとってはより速く、開発者にとってはより開発しやすく。そんなウェブの新時代はまだ始まったばかりです。
     </P>
     <P>
-      I invite you to join us at{' '}
+      そんな時代をぜひ、
       <a href="https://vercel.com" target="_blank">
         Vercel
-      </a>{' '}
-      to be a part of this exciting movement. Don't forget to{' '}
-      <a href="https://twitter.com/vercel">follow us</a> to stay on top of our
-      journey, which is{' '}
-      <a href="https://nextjs.org" target="_blank">
-        open at its heart
       </a>
-      , much like the platform it builds on.
+      と共に歩んでみませんか。宜しければ、私達のツイッターも
+      <a href="https://twitter.com/vercel">フォロー</a>
+      してみてください。そうすれば、オープンなプラットフォームのお陰で生まれたVercelの、
+      <a href="https://nextjs.org" target="_blank">
+        どこまでもオープン
+      </a>
+      な物語が垣間見えると思います。
     </P>
   </Post>
 ))
