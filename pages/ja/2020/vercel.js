@@ -147,10 +147,11 @@ export default withViews(({ views }) => (
       私達の読みは的中しました。現在、フロントエンド開発者の多くはコンポーネント化への移行を急ピッチで進めています。多くはReactを選び、フロントエンドをバックエンドから分離し、設計を抜本的に見直そうとしているのです。Vercelは、そういった課題に直面しているフロントエンド開発者にとって、必要なものがすべて備わっているプラットフォームでありたいと考えています。
     </P>
     <P>
+      Vercelは
       <a href="https://nextjs.org" target="_blank">
         Next.js
       </a>
-      以外にも、Vercelは
+      に加え、
       <a href="https://vuejs.org/" target="_blank">
         どんな
       </a>
@@ -178,7 +179,7 @@ export default withViews(({ views }) => (
       <a target="_blank" href="https://www.webcomponents.org/">
         コンポーネント化のウェブ標準
       </a>
-      の実現に貢献しています。Vercelは、こういったフレームワーク全てを歓迎するプラットフォームでありたいのです。
+      の議論に貢献しています。Vercelは、こういったフレームワーク全てを大歓迎するプラットフォームでありたいのです。
     </P>
     <H3 id="preview">
       2. コードレビューはデプロイプレビューに如かず。URLは共同作業のためにある
