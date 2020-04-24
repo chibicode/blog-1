@@ -199,18 +199,10 @@ export default withViews(({ views }) => (
       たかがURLだと侮るなかれ。プレビューURLには、複雑さからフロントエンド開発者を解き放ち、開発スピードを飛躍的に高める効果があるのです。
     </P>
     <P>
-      The most obvious immediate benefit of the URL for deploy review is making
-      it much easier to collaborate across any organization, from marketing and
-      sales to legal and engineering. Frontend teams can send these URLs over
-      chat, instantly seeing what their teammates are developing and what the
-      next big push will be.
+      最もわかりやすい例を挙げると、プレビューURLがあれば、開発部門だけでなく、マーケティングや営業や法務など他部門との共同作業が捗ります。チャットでプレビューURLを送り合うだけで、いま開発中なのは何か、どの分野に力を入れているのかが明確になります。
     </P>
     <P>
-      When you have a deploy URL, it redefines not just testing, but the entire
-      software development experience, from idea to conception to QA. Now you’re
-      testing against the real thing. You get a working URL that can be shared
-      and tested as a full working version. You eliminate the entire staging
-      process.
+      デプロイ毎に新しくURLが生成されれば、テストが容易になります。プレビューURLを使えば、ステージング環境を通り越して、本番と変わらない環境でテストを行うことができます。もちろん、アイデア段階のものを試すのにも使えるでしょう。発案から品質保証まで、ソフトウェア開発プロセスの全段階においてプレビューURLは役立つのです。
     </P>
     <P>
       Another benefit of Vercel’s deploy preview URL is that you get to test
