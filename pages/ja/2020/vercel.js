@@ -184,21 +184,14 @@ export default withViews(({ views }) => (
       2. コードレビューはデプロイプレビューに如かず。URLは共同作業のためにある
     </H3>
     <P>
-      The code push and review workflow is way too complicated. Too many cycles
-      are spent configuring your own CI/CD pipeline, setting up Jenkins, finding
-      your optimal vendor for CI, finding your optimal vendor for CDN, and so
-      on. It’s also hard to get your CI/CD and your CDN to talk, and ensuring
-      the Rube Goldberg apparatus stays coherent.
+      コードをpushしてレビューする仕組みは複雑化しすぎています。自前のCI/CDパイプラインを構築したり、Jenkinsの設定を弄ったり、CI/CDやCDNのベンダーを選定するのに時間がかかりすぎるのです。CI/CDとCDNをうまく連携させたり、複雑なシステムの挙動を見張るのはとても難儀です。
     </P>
     <P>
-      Vercel made a huge breakthrough with the realization that the preview
-      deploy URL was a superior abstraction for frontend teams. We created a
-      workflow for deploying / reviewing code in real-time &mdash; similar to a
-      preview in a CMS, but we accomplish this by{' '}
+      そこでVercelは画期的な考えに至りました。フロントエンド開発者にとっては、プレビュー用のデプロイにアクセスできるURLに勝るものはない、と。Vercelを使えば、開発中のフロントエンドをデプロイし、すぐにプレビューURLを取得して結果を確認することができます。コンテンツ管理システム(訳註:
+      Wordpressなど)によくあるプレビュー機能と同じですが、Vercelは
       <a href="https://vercel.com/github" target="_blank">
-        <b>integrating into Git and deploying with every push</b>
+        <b>Gitと連携し、全てのpushに対してデプロイを行います</b>。
       </a>
-      .
     </P>
     <P>
       Sounds like a pretty basic evolution, but it tears down so much complexity
