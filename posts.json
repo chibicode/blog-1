@@ -28,7 +28,10 @@
     {
       "id": "vercel",
       "date": "April 21, 2020",
-      "title": "Vercel"
+      "title": "Vercel",
+      "i18n": {
+        "ja": "Vercel (日本語訳)"
+      }
     },
     {
       "id": "2019-in-review",
