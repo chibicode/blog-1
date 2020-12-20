@@ -1,3 +1,5 @@
+import React from "react";
+
 const H = ({ id, level = 2, fontSize = 20, children }) => (
   <div>
     {React.createElement(
