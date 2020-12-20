@@ -2,8 +2,8 @@ const nextra = require('nextra')
 
 module.exports = nextra('./components/layouts/nextra-post-layout')({
   i18n: {
-    locales: ["en-US", "ja"],
-    defaultLocale: "en-US",
+    locales: ["en", "ja"],
+    defaultLocale: "en",
   },
   headers() {
     return [
