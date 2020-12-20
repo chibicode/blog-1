@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import Post from "../../components/layouts/post";
 import Quote from "../../components/post/quote";
 import P from "../../components/post/paragraph";
@@ -14,6 +15,7 @@ import YouTube from "../../components/post/youtube";
 import Head from "next/head";
 import Link from "next/link";
 import Hreflang from "../../components/hreflang";
+import Ja from "../ja/2020/vercel";
 
 export const PostHrefLang = () => (
   <Hreflang
@@ -22,7 +24,7 @@ export const PostHrefLang = () => (
   />
 );
 
-export default withViews(({ views }) => (
+const En = withViews(({ views }) => (
   <Post>
     <Header title="Vercel" date="April 21, 2020" views={views} />
     <Head>
@@ -358,3 +360,8 @@ export default withViews(({ views }) => (
     `}</style>
   </Post>
 ));
+
+export default () => {
+  const { locale } = useRouter();
+  return locale === "ja" ? <Ja /> : <En />;
+};
